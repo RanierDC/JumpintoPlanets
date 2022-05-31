@@ -15,7 +15,7 @@ public class movi : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.D))
         {
-            m.x = 0.02f;
+            m.x = 0.01f;
             m.y = 0f;
 
             transform.Translate(m);
@@ -23,7 +23,7 @@ public class movi : MonoBehaviour
 
         if(Input.GetKey(KeyCode.A))
         {
-            m.x = -0.02f;
+            m.x = -0.01f;
             m.y = 0f;
 
             transform.Translate(m);
@@ -32,7 +32,7 @@ public class movi : MonoBehaviour
         if(Input.GetKey(KeyCode.Space))
         {
             m.x = 0f;
-            m.y = 0.04f;
+            m.y = 0.03f;
 
             transform.Translate(m);
         }

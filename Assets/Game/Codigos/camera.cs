@@ -15,7 +15,7 @@ public class camera : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.D))
         {
-            m.x = 0.02f;
+            m.x = 0.01f;
             m.y = 0f;
 
             transform.Translate(m);
@@ -23,7 +23,7 @@ public class camera : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A))
         {
-            m.x = -0.02f;
+            m.x = -0.01f;
             m.y = 0f;
 
             transform.Translate(m);
